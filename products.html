@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Products — CRN Foods | Namkeen, Sweets, Chips &amp; Ready to Eat</title>
+<meta name="description" content="Browse CRN Foods' private-label product range: namkeen and snacks, traditional and premium sweets, potato and banana chips, and ready-to-eat items.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- category icon sprite (reused by placeholder product cards) -->
+<svg class="icon-sprite" xmlns="http://www.w3.org/2000/svg">
+  <symbol id="icon-namkeen" viewBox="0 0 48 48">
+    <path d="M8 22h32a16 14 0 0 1-32 0Z"/>
+    <circle cx="18" cy="16" r="1.4" fill="currentColor" stroke="none"/>
+    <circle cx="26" cy="14" r="1.4" fill="currentColor" stroke="none"/>
+    <circle cx="32" cy="17" r="1.4" fill="currentColor" stroke="none"/>
+  </symbol>
+  <symbol id="icon-sweets" viewBox="0 0 48 48">
+    <rect x="14" y="14" width="20" height="20" rx="2" transform="rotate(45 24 24)"/>
+  </symbol>
+  <symbol id="icon-chips" viewBox="0 0 48 48">
+    <path d="M10 24c0-8 6-14 14-14s14 6 14 14-6 14-14 14-14-6-14-14Z"/>
+    <path d="M16 22c2-2 4-2 6 0s4 2 6 0 4-2 6 0"/>
+  </symbol>
+  <symbol id="icon-ready-to-eat" viewBox="0 0 48 48">
+    <rect x="14" y="10" width="20" height="30" rx="3"/>
+    <path d="M18 10V6a6 6 0 0 1 12 0v4"/>
+    <line x1="14" y1="20" x2="34" y2="20"/>
+  </symbol>
+</svg>
+
+<header class="site-header">
+  <div class="container">
+    <a href="index.html" class="brand">
+      <img src="https://static.wixstatic.com/media/7b9cef_dbbc0be419774282b98aca4224ec5933~mv2.png/v1/crop/x_18,y_0,w_942,h_451/fill/w_381,h_183,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/LOGO_edited.png" alt="CRN Foods">
+    </a>
+    <nav class="main-nav">
+      <ul>
+        <li><a class="nav-link" href="index.html">Home</a></li>
+        <li><a class="nav-link" href="about.html">About</a></li>
+        <li class="has-sub">
+          <a class="nav-link" href="products.html">Products</a>
+          <div class="submenu">
+            <div class="submenu-group-title">Namkeen &amp; Snacks</div>
+            <a href="products.html?cat=namkeen">Traditional Snacks</a>
+            <a href="products.html?cat=namkeen">Snacks &amp; Mixture</a>
+            <div class="submenu-group-title">Sweets</div>
+            <a href="products.html?cat=sweets">Traditional Sweet</a>
+            <a href="products.html?cat=sweets">Premium Sweet</a>
+            <a href="products.html?cat=sweets">Health Sweet</a>
+            <div class="submenu-group-title">Chips</div>
+            <a href="products.html?cat=chips">Banana Chips</a>
+            <a href="products.html?cat=chips">Potato Chips</a>
+            <div class="submenu-group-title">More</div>
+            <a href="products.html?cat=ready-to-eat">Ready to Eat</a>
+            <a href="products.html">All Products</a>
+          </div>
+        </li>
+        <li><a class="nav-link" href="careers.html">Careers</a></li>
+        <li><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="header-cta">
+      <a href="contact.html" class="btn btn-primary">Partner with us</a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false"><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <section class="page-hero">
+    <div class="container">
+      <p class="breadcrumb"><a href="index.html">Home</a> / Products</p>
+      <p class="section-label">Our range</p>
+      <h1>Everything we manufacture, in one catalog</h1>
+      <p class="lede">A curated view of our current range — 66+ SKUs across five categories. Every item can be reformulated, reflavoured or repackaged under your brand.</p>
+    </div>
+  </section>
+
+  <div class="filter-bar">
+    <div class="container">
+      <button class="filter-btn active" data-filter="all">All products</button>
+      <button class="filter-btn" data-filter="namkeen">Namkeen &amp; Snacks</button>
+      <button class="filter-btn" data-filter="sweets">Sweets</button>
+      <button class="filter-btn" data-filter="chips">Chips</button>
+      <button class="filter-btn" data-filter="ready-to-eat">Ready to Eat</button>
+      <span class="filter-count"></span>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="product-grid">
+
+      <!-- NAMKEEN & SNACKS -->
+      <article class="product-card" data-category="namkeen">
+        <div class="p-media"><span class="p-sku">SKU A040</span><img src="https://static.wixstatic.com/media/e7db8b_ac50cf3addc44ee4bc3f5e1a3f5381a1~mv2.jpg/v1/fill/w_1200,h_1800,al_c,q_90,enc_avif,quality_auto/e7db8b_ac50cf3addc44ee4bc3f5e1a3f5381a1~mv2.jpg" alt="Masala Peanuts"></div>
+        <div class="p-body"><span class="p-cat">Namkeen &amp; Snacks</span><h3>Masala Peanuts</h3><p>Crunchy peanuts coated with spicy masala for a bold and tasty snack.</p></div>
+      </article>
+
+      <article class="product-card" data-category="namkeen">
+        <div class="p-media"><span class="p-sku">SKU A052</span><img src="https://static.wixstatic.com/media/e7db8b_15af3bfd57ff456ca4f9ee3a9cd85ba2~mv2.jpg/v1/fill/w_500,h_586,al_c,q_80,enc_avif,quality_auto/e7db8b_15af3bfd57ff456ca4f9ee3a9cd85ba2~mv2.jpg" alt="Garlic Ribbon Murukku"></div>
+        <div class="p-body"><span class="p-cat">Namkeen &amp; Snacks</span><h3>Garlic Ribbon Murukku</h3><p>Crunchy ribbon murukku infused with rich garlic flavour.</p></div>
+      </article>
+
+      <article class="product-card" data-category="namkeen">
+        <div class="p-media placeholder"><svg class="cat-icon namkeen"><use href="#icon-namkeen"/></svg></div>
+        <div class="p-body"><span class="p-cat">Namkeen &amp; Snacks</span><h3>Congress KadaleKai</h3><p>Roasted Bengal gram tossed in a classic South Indian spice blend.</p></div>
+      </article>
+
+      <article class="product-card" data-category="namkeen">
+        <div class="p-media placeholder"><svg class="cat-icon namkeen"><use href="#icon-namkeen"/></svg></div>
+        <div class="p-body"><span class="p-cat">Namkeen &amp; Snacks</span><h3>Khara Omapudi</h3><p>A crisp, savoury omapodi seasoned with a warming carom-seed spice mix.</p></div>
+      </article>
+
+      <article class="product-card" data-category="namkeen">
+        <div class="p-media placeholder"><svg class="cat-icon namkeen"><use href="#icon-namkeen"/></svg></div>
+        <div class="p-body"><span class="p-cat">Namkeen &amp; Snacks</span><h3>Khara Bhoondi</h3><p>Fine, crunchy bhoondi tempered with a savoury spice blend.</p></div>
+      </article>
+
+      <article class="product-card" data-category="namkeen">
+        <div class="p-media placeholder"><svg class="cat-icon namkeen"><use href="#icon-namkeen"/></svg></div>
+        <div class="p-body"><span class="p-cat">Namkeen &amp; Snacks</span><h3>Special Khara Bhoondi</h3><p>A richer, more heavily spiced version of our classic bhoondi.</p></div>
+      </article>
+
+      <article class="product-card" data-category="namkeen">
+        <div class="p-media placeholder"><svg class="cat-icon namkeen"><use href="#icon-namkeen"/></svg></div>
+        <div class="p-body"><span class="p-cat">Namkeen &amp; Snacks</span><h3>Butter Murukku</h3><p>A softer, buttery take on the classic murukku twist.</p></div>
+      </article>
+
+      <article class="product-card" data-category="namkeen">
+        <div class="p-media placeholder"><svg class="cat-icon namkeen"><use href="#icon-namkeen"/></svg></div>
+        <div class="p-body"><span class="p-cat">Namkeen &amp; Snacks</span><h3>Onion Murukku</h3><p>Crisp murukku spirals finished with a savoury onion note.</p></div>
+      </article>
+
+      <article class="product-card" data-category="namkeen">
+        <div class="p-media placeholder"><svg class="cat-icon namkeen"><use href="#icon-namkeen"/></svg></div>
+        <div class="p-body"><span class="p-cat">Namkeen &amp; Snacks</span><h3>Pepper Murukku Sticks</h3><p>Straight murukku sticks with a sharp black pepper kick.</p></div>
+      </article>
+
+      <article class="product-card" data-category="namkeen">
+        <div class="p-media placeholder"><svg class="cat-icon namkeen"><use href="#icon-namkeen"/></svg></div>
+        <div class="p-body"><span class="p-cat">Namkeen &amp; Snacks</span><h3>Aloo Bhujia</h3><p>Thin, crisp potato bhujia with a classic savoury spice mix.</p></div>
+      </article>
+
+      <article class="product-card" data-category="namkeen">
+        <div class="p-media placeholder"><svg class="cat-icon namkeen"><use href="#icon-namkeen"/></svg></div>
+        <div class="p-body"><span class="p-cat">Namkeen &amp; Snacks</span><h3>Aloo Bhujia Masala</h3><p>A spicier take on our potato bhujia, built for bold snacking.</p></div>
+      </article>
+
+      <article class="product-card" data-category="namkeen">
+        <div class="p-media placeholder"><svg class="cat-icon namkeen"><use href="#icon-namkeen"/></svg></div>
+        <div class="p-body"><span class="p-cat">Namkeen &amp; Snacks</span><h3>Moong Dal</h3><p>Crunchy fried moong dal, lightly salted and spiced.</p></div>
+      </article>
+
+      <article class="product-card" data-category="namkeen">
+        <div class="p-media placeholder"><svg class="cat-icon namkeen"><use href="#icon-namkeen"/></svg></div>
+        <div class="p-body"><span class="p-cat">Namkeen &amp; Snacks</span><h3>Avarakkal Salt</h3><p>Roasted avarakkal (field beans) with a simple, salted finish.</p></div>
+      </article>
+
+      <article class="product-card" data-category="namkeen">
+        <div class="p-media placeholder"><svg class="cat-icon namkeen"><use href="#icon-namkeen"/></svg></div>
+        <div class="p-body"><span class="p-cat">Namkeen &amp; Snacks</span><h3>Pancharatan Mixture</h3><p>A five-ingredient namkeen mixture built for texture and crunch.</p></div>
+      </article>
+
+      <article class="product-card" data-category="namkeen">
+        <div class="p-media placeholder"><svg class="cat-icon namkeen"><use href="#icon-namkeen"/></svg></div>
+        <div class="p-body"><span class="p-cat">Namkeen &amp; Snacks</span><h3>Kashmiri Mixture</h3><p>A mild, aromatic mixture inspired by Kashmiri-style seasoning.</p></div>
+      </article>
+
+      <article class="product-card" data-category="namkeen">
+        <div class="p-media placeholder"><svg class="cat-icon namkeen"><use href="#icon-namkeen"/></svg></div>
+        <div class="p-body"><span class="p-cat">Namkeen &amp; Snacks</span><h3>Mangalore Mixture</h3><p>A coastal-style mixture with a distinct South Indian crunch.</p></div>
+      </article>
+
+      <article class="product-card" data-category="namkeen">
+        <div class="p-media placeholder"><svg class="cat-icon namkeen"><use href="#icon-namkeen"/></svg></div>
+        <div class="p-body"><span class="p-cat">Namkeen &amp; Snacks</span><h3>Methi Kodubale</h3><p>Ring-shaped, deep-fried snack with a mild fenugreek note.</p></div>
+      </article>
+
+      <article class="product-card" data-category="namkeen">
+        <div class="p-media placeholder"><svg class="cat-icon namkeen"><use href="#icon-namkeen"/></svg></div>
+        <div class="p-body"><span class="p-cat">Namkeen &amp; Snacks</span><h3>Mini Dry Samosa</h3><p>Bite-sized, crisp samosas designed for long shelf life.</p></div>
+      </article>
+
+      <article class="product-card" data-category="namkeen">
+        <div class="p-media placeholder"><svg class="cat-icon namkeen"><use href="#icon-namkeen"/></svg></div>
+        <div class="p-body"><span class="p-cat">Namkeen &amp; Snacks</span><h3>Mini Dry Kachori</h3><p>Small, crunchy kachoris with a well-spiced filling.</p></div>
+      </article>
+
+      <article class="product-card" data-category="namkeen">
+        <div class="p-media placeholder"><svg class="cat-icon namkeen"><use href="#icon-namkeen"/></svg></div>
+        <div class="p-body"><span class="p-cat">Namkeen &amp; Snacks</span><h3>Bakravadhi</h3><p>A spiral, deep-fried Maharashtrian-style savoury snack.</p></div>
+      </article>
+
+      <article class="product-card" data-category="namkeen">
+        <div class="p-media placeholder"><svg class="cat-icon namkeen"><use href="#icon-namkeen"/></svg></div>
+        <div class="p-body"><span class="p-cat">Namkeen &amp; Snacks</span><h3>Lemon Pepper Peanut</h3><p>Roasted peanuts finished with tangy lemon and cracked pepper.</p></div>
+      </article>
+
+      <article class="product-card" data-category="namkeen">
+        <div class="p-media placeholder"><svg class="cat-icon namkeen"><use href="#icon-namkeen"/></svg></div>
+        <div class="p-body"><span class="p-cat">Namkeen &amp; Snacks</span><h3>Spicy Cornflakes</h3><p>Crisp cornflakes tossed in a savoury, spiced coating.</p></div>
+      </article>
+
+      <article class="product-card" data-category="namkeen">
+        <div class="p-media placeholder"><svg class="cat-icon namkeen"><use href="#icon-namkeen"/></svg></div>
+        <div class="p-body"><span class="p-cat">Namkeen &amp; Snacks</span><h3>Khara Avalakki</h3><p>Flattened rice tempered with a classic savoury spice mix.</p></div>
+      </article>
+
+      <!-- SWEETS -->
+      <article class="product-card" data-category="sweets">
+        <div class="p-media"><span class="p-sku">SKU A030</span><img src="https://static.wixstatic.com/media/e7db8b_774c4aa196184e47a20928fddb04f69c~mv2.webp/v1/fill/w_1946,h_2433,al_c,q_90,enc_avif,quality_auto/e7db8b_774c4aa196184e47a20928fddb04f69c~mv2.webp" alt="Ghee Mysore Pak (Soft)"></div>
+        <div class="p-body"><span class="p-cat">Sweets</span><h3>Ghee Mysore Pak (Soft)</h3><p>Rich, soft sweet made with pure ghee and premium ingredients.</p></div>
+      </article>
+
+      <article class="product-card" data-category="sweets">
+        <div class="p-media placeholder"><svg class="cat-icon sweets"><use href="#icon-sweets"/></svg></div>
+        <div class="p-body"><span class="p-cat">Sweets</span><h3>Ghee Mysore Pak (Crispy)</h3><p>The crisper, denser version of our classic ghee Mysore Pak.</p></div>
+      </article>
+
+      <article class="product-card" data-category="sweets">
+        <div class="p-media placeholder"><svg class="cat-icon sweets"><use href="#icon-sweets"/></svg></div>
+        <div class="p-body"><span class="p-cat">Sweets</span><h3>Peanut Chikki</h3><p>A classic jaggery-and-peanut brittle, set for a firm, satisfying crunch.</p></div>
+      </article>
+
+      <article class="product-card" data-category="sweets">
+        <div class="p-media placeholder"><svg class="cat-icon sweets"><use href="#icon-sweets"/></svg></div>
+        <div class="p-body"><span class="p-cat">Sweets</span><h3>Wheat Halwa</h3><p>A traditional wheat-based halwa, slow-cooked with ghee.</p></div>
+      </article>
+
+      <article class="product-card" data-category="sweets">
+        <div class="p-media placeholder"><svg class="cat-icon sweets"><use href="#icon-sweets"/></svg></div>
+        <div class="p-body"><span class="p-cat">Sweets</span><h3>Adhirasam</h3><p>A traditional Tamil sweet made from rice flour and jaggery.</p></div>
+      </article>
+
+      <article class="product-card" data-category="sweets">
+        <div class="p-media placeholder"><svg class="cat-icon sweets"><use href="#icon-sweets"/></svg></div>
+        <div class="p-body"><span class="p-cat">Sweets</span><h3>Besan Laddu</h3><p>Roasted gram flour laddus finished with ghee and cardamom.</p></div>
+      </article>
+
+      <article class="product-card" data-category="sweets">
+        <div class="p-media placeholder"><svg class="cat-icon sweets"><use href="#icon-sweets"/></svg></div>
+        <div class="p-body"><span class="p-cat">Sweets</span><h3>Ghee Sunnundalu</h3><p>A traditional Andhra-style urad dal laddu, rich with ghee.</p></div>
+      </article>
+
+      <!-- CHIPS -->
+      <article class="product-card" data-category="chips">
+        <div class="p-media"><span class="p-sku">SKU A050</span><img src="https://static.wixstatic.com/media/e7db8b_94b7ab18d8dd483f877c8f42d225149f~mv2.webp/v1/fill/w_1080,h_1080,al_c,q_85,enc_avif,quality_auto/e7db8b_94b7ab18d8dd483f877c8f42d225149f~mv2.webp" alt="Nendram Banana Chips Chilli"></div>
+        <div class="p-body"><span class="p-cat">Chips</span><h3>Nendram Banana Chips — Chilli</h3><p>Crispy banana chips seasoned with spicy chilli flavour.</p></div>
+      </article>
+
+      <article class="product-card" data-category="chips">
+        <div class="p-media"><span class="p-sku">SKU A046</span><img src="https://static.wixstatic.com/media/e7db8b_bdcfe11cc45747c3acbb070909cd659f~mv2.jpg/v1/fill/w_500,h_500,al_c,q_80,enc_avif,quality_auto/e7db8b_bdcfe11cc45747c3acbb070909cd659f~mv2.jpg" alt="Potato Chips Chilli"></div>
+        <div class="p-body"><span class="p-cat">Chips</span><h3>Potato Chips — Chilli</h3><p>Crispy potato chips flavoured with spicy chilli seasoning.</p></div>
+      </article>
+
+      <article class="product-card" data-category="chips">
+        <div class="p-media placeholder"><svg class="cat-icon chips"><use href="#icon-chips"/></svg></div>
+        <div class="p-body"><span class="p-cat">Chips</span><h3>Potato Chips — Salt</h3><p>Classic salted potato chips, sliced and fried for an even crunch.</p></div>
+      </article>
+
+      <article class="product-card" data-category="chips">
+        <div class="p-media placeholder"><svg class="cat-icon chips"><use href="#icon-chips"/></svg></div>
+        <div class="p-body"><span class="p-cat">Chips</span><h3>Nendram Banana Chips — Salt</h3><p>Kerala-style Nendram banana chips with a simple salted finish.</p></div>
+      </article>
+
+      <article class="product-card" data-category="chips">
+        <div class="p-media placeholder"><svg class="cat-icon chips"><use href="#icon-chips"/></svg></div>
+        <div class="p-body"><span class="p-cat">Chips</span><h3>Nendram Banana Chips — Pepper</h3><p>Nendram banana chips finished with a sharp black pepper edge.</p></div>
+      </article>
+
+      <!-- READY TO EAT -->
+      <article class="product-card" data-category="ready-to-eat">
+        <div class="p-media placeholder"><svg class="cat-icon ready-to-eat"><use href="#icon-ready-to-eat"/></svg></div>
+        <div class="p-body"><span class="p-cat">Ready to Eat</span><h3>Gunpowder</h3><p>A South Indian spice-and-lentil blend, ready to serve with idli or dosa.</p></div>
+      </article>
+
+    </div>
+
+    <p class="catalog-note">Showing a curated selection from our full range of 66+ SKUs. Ask us for the complete price list, spec sheets and packaging options.</p>
+  </div>
+
+  <section class="cta-banner">
+    <div class="container">
+      <div>
+        <h2>Don't see what you're looking for?</h2>
+        <p>We regularly co-develop new lines with brand partners — tell us the flavour or format you have in mind.</p>
+      </div>
+      <div class="hero-cta" style="margin:0;">
+        <a href="contact.html" class="btn btn-primary">Request the full catalog</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="brand">
+          <img src="https://static.wixstatic.com/media/7b9cef_dbbc0be419774282b98aca4224ec5933~mv2.png/v1/crop/x_18,y_0,w_942,h_451/fill/w_381,h_183,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/LOGO_edited.png" alt="CRN Foods" style="height:34px;">
+        </a>
+        <p>Private-label and contract manufacturing of snacks, sweets, chips and ready-to-eat products, based in Tamil Nadu.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="Facebook">f</a>
+          <a href="#" aria-label="Instagram">ig</a>
+          <a href="#" aria-label="YouTube">yt</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="about.html">About us</a></li>
+          <li><a href="careers.html">Careers</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Products</h4>
+        <ul>
+          <li><a href="products.html?cat=namkeen">Namkeen &amp; Snacks</a></li>
+          <li><a href="products.html?cat=sweets">Sweets</a></li>
+          <li><a href="products.html?cat=chips">Chips</a></li>
+          <li><a href="products.html?cat=ready-to-eat">Ready to Eat</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Support</h4>
+        <ul>
+          <li><a href="contact.html">Customer support</a></li>
+          <li><a href="contact.html">FAQ</a></li>
+          <li><a href="contact.html">Shipping &amp; returns</a></li>
+          <li><a href="contact.html">Terms &amp; conditions</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Reach us</h4>
+        <ul>
+          <li><a href="tel:+919150081328">09150081328</a></li>
+          <li><a href="mailto:hello@crnfoods.com">hello@crnfoods.com</a></li>
+          <li>Krishnagiri Main Road, Baisuhally village, near Dharmapuri, Tamil Nadu 635205</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 CRN Foods Pvt. Ltd. All rights reserved.</span>
+      <div class="footer-legal">
+        <a href="contact.html">Privacy</a>
+        <a href="contact.html">Terms &amp; conditions</a>
+        <a href="contact.html">Payment methods</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
